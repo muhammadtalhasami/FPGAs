@@ -1,0 +1,370 @@
+{
+  "creator": "Next Generation Place and Route (Version nextpnr-0.5-34-ga93f49eb)",
+  "modules": {
+    "top": {
+      "settings": {
+        "route": "00000000000000000000000000000001",
+        "router/tmg_ripup": "0 ",
+        "router1/useEstimate": "1 ",
+        "router1/fullCleanupReroute": "1 ",
+        "router1/cleanupReroute": "1 ",
+        "router1/maxIterCnt": "200",
+        "place": "00000000000000000000000000000001",
+        "placer1/startTemp": "1.000000",
+        "placer1/budgetBased": "0 ",
+        "placer1/minBelsForGridPick": "64",
+        "placer1/netShareWeight": "0.000000",
+        "placer1/constraintWeight": "10.000000",
+        "placerHeap/cellPlacementTimeout": "8",
+        "placerHeap/netShareWeight": "0.000000",
+        "placerHeap/parallelRefine": "0 ",
+        "pack": "00000000000000000000000000000001",
+        "cst": "00000000000000000000000000000001",
+        "synth": "00000000000000000000000000000001",
+        "placerHeap/timingWeight": "10 ",
+        "placerHeap/criticalityExponent": "2",
+        "placerHeap/beta": "0.900000",
+        "placerHeap/alpha": "0.100000",
+        "seed": "01010011010110001001011110010011",
+        "arch.type": "none",
+        "arch.name": "ARCHNAME",
+        "router": "router1",
+        "placer": "heap",
+        "auto_freq": "00000000000000000000000000000000",
+        "slack_redist_iter": "00000000000000000000000000000000",
+        "timing_driven": "00000000000000000000000000000001",
+        "target_freq": "27000000.000000",
+        "arch.enable-auto-longwires": "00000000000000000000000000000000",
+        "arch.enable-globals": "00000000000000000000000000000001"
+      },
+      "attributes": {
+        "top": "00000000000000000000000000000001",
+        "src": "/home/talha/Tang_Nano_9k/FPGA_Project/alu/alu.v:1.1-46.10"
+      },
+      "ports": {
+        "led": {
+          "direction": "output",
+          "bits": [ 1715614176, 1715612896, 1715611200 ]
+        },
+        "btn2": {
+          "direction": "input",
+          "bits": [ 3877462 ]
+        },
+        "btn1": {
+          "direction": "input",
+          "bits": [ 3877461 ]
+        }
+      },
+      "cells": {
+        "led_OBUF_O_2_I_LUT2_F_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "0100"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C2_SLICE7",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3877478 ],
+            "CLK": [  ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3877466 ],
+            "A": [ 3877469 ]
+          }
+        },
+        "led_OBUF_O_1_I_LUT2_F_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "0001"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C2_SLICE0",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3877473 ],
+            "CLK": [  ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3877466 ],
+            "A": [ 3877469 ]
+          }
+        },
+        "led_OBUF_O$iob": {
+          "hide_name": 0,
+          "type": "IOB",
+          "parameters": {
+            "ENABLE_USED": "00000000000000000000000000000000",
+            "OUTPUT_USED": "00000000000000000000000000000001",
+            "INPUT_USED": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000110",
+            "NEXTPNR_BEL": "R21C1_IOBB",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/alu/alu.v:4.22-4.25",
+            "&DRIVE=8": "00000000000000000000000000000001",
+            "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "OEN": "input",
+            "I": "input",
+            "PAD": "inout"
+          },
+          "connections": {
+            "O": [  ],
+            "OEN": [  ],
+            "I": [ 3877466 ],
+            "PAD": [  ]
+          }
+        },
+        "led_OBUF_O_1$iob": {
+          "hide_name": 0,
+          "type": "IOB",
+          "parameters": {
+            "ENABLE_USED": "00000000000000000000000000000000",
+            "OUTPUT_USED": "00000000000000000000000000000001",
+            "INPUT_USED": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000110",
+            "NEXTPNR_BEL": "R16C1_IOBB",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/alu/alu.v:4.22-4.25",
+            "&DRIVE=8": "00000000000000000000000000000001",
+            "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "OEN": "input",
+            "I": "input",
+            "PAD": "inout"
+          },
+          "connections": {
+            "O": [  ],
+            "OEN": [  ],
+            "I": [ 3877473 ],
+            "PAD": [  ]
+          }
+        },
+        "led_OBUF_O_2$iob": {
+          "hide_name": 0,
+          "type": "IOB",
+          "parameters": {
+            "ENABLE_USED": "00000000000000000000000000000000",
+            "OUTPUT_USED": "00000000000000000000000000000001",
+            "INPUT_USED": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000110",
+            "NEXTPNR_BEL": "R15C1_IOBA",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/alu/alu.v:4.22-4.25",
+            "&DRIVE=8": "00000000000000000000000000000001",
+            "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "OEN": "input",
+            "I": "input",
+            "PAD": "inout"
+          },
+          "connections": {
+            "O": [  ],
+            "OEN": [  ],
+            "I": [ 3877478 ],
+            "PAD": [  ]
+          }
+        },
+        "btn2_IBUF_I$iob": {
+          "hide_name": 0,
+          "type": "IOB",
+          "parameters": {
+            "ENABLE_USED": "00000000000000000000000000000000",
+            "OUTPUT_USED": "00000000000000000000000000000000",
+            "INPUT_USED": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000110",
+            "NEXTPNR_BEL": "R5C1_IOBA",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/alu/alu.v:3.16-3.20",
+            "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "OEN": "input",
+            "I": "input",
+            "PAD": "inout"
+          },
+          "connections": {
+            "O": [ 3877469 ],
+            "OEN": [  ],
+            "I": [  ],
+            "PAD": [  ]
+          }
+        },
+        "btn1_IBUF_I$iob": {
+          "hide_name": 0,
+          "type": "IOB",
+          "parameters": {
+            "ENABLE_USED": "00000000000000000000000000000000",
+            "OUTPUT_USED": "00000000000000000000000000000000",
+            "INPUT_USED": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000110",
+            "NEXTPNR_BEL": "R1C2_IOBA",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/alu/alu.v:2.16-2.20",
+            "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "OEN": "input",
+            "I": "input",
+            "PAD": "inout"
+          },
+          "connections": {
+            "O": [ 3877466 ],
+            "OEN": [  ],
+            "I": [  ],
+            "PAD": [  ]
+          }
+        },
+        "$PACKER_VCC": {
+          "hide_name": 1,
+          "type": "VCC",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "VCC"
+          },
+          "port_directions": {
+            "V": "output"
+          },
+          "connections": {
+            "V": [ 3877493 ]
+          }
+        },
+        "$PACKER_GND": {
+          "hide_name": 1,
+          "type": "GND",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000010",
+            "NEXTPNR_BEL": "GND"
+          },
+          "port_directions": {
+            "G": "output"
+          },
+          "connections": {
+            "G": [ 3877491 ]
+          }
+        },
+        "GSR": {
+          "hide_name": 0,
+          "type": "GSR",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R1C1_GSR0"
+          },
+          "port_directions": {
+            "GSRI": "input"
+          },
+          "connections": {
+            "GSRI": [ 3877493 ]
+          }
+        }
+      },
+      "netnames": {
+        "led_OBUF_O_1_I": {
+          "hide_name": 0,
+          "bits": [ 3877473 ] ,
+          "attributes": {
+            "ROUTING": "R15C2_F0;;1;R15C2_W10;R15C2_F0_W100;1;R15C1_S20;R15C1_W101_S200;1;R16C1_D1;R16C1_S201_D1;1"
+          }
+        },
+        "led_OBUF_O_2_I": {
+          "hide_name": 0,
+          "bits": [ 3877478 ] ,
+          "attributes": {
+            "ROUTING": "R15C2_F7;;1;R15C2_W13;R15C2_F7_W130;1;R15C1_A0;R15C1_W131_A0;1"
+          }
+        },
+        "btn1_IBUF_I_O[0]": {
+          "hide_name": 0,
+          "bits": [ 3877469 ] ,
+          "attributes": {
+            "ROUTING": "R15C2_A7;R15C2_E272_A7;1;R5C1_F6;;1;R5C1_S26;R5C1_F6_S260;1;R7C1_S26;R7C1_S262_S260;1;R9C1_S27;R9C1_S262_S270;1;R11C1_S27;R11C1_S272_S270;1;R13C1_S27;R13C1_S272_S270;1;R15C1_W27;R15C1_S272_W270;1;R15C2_A0;R15C2_E272_A0;1",
+            "src": "/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "$PACKER_GND_NET": {
+          "hide_name": 1,
+          "bits": [ 3877491 ] ,
+          "attributes": {
+            "ROUTING": " "
+          }
+        },
+        "btn1_IBUF_I_O[1]": {
+          "hide_name": 0,
+          "bits": [ 3877466 ] ,
+          "attributes": {
+            "ROUTING": "R15C2_S26;R15C2_S232_S260;1;R17C2_S26;R17C2_S262_S260;1;R19C2_S26;R19C2_S262_S260;1;R21C2_W26;R21C2_S262_W260;1;R21C1_X03;R21C1_W261_X03;1;R21C1_D1;R21C1_X03_D1;1;R15C2_X08;R15C2_S232_X08;1;R15C2_B7;R15C2_X08_B7;1;R1C2_F6;;1;R1C2_S26;R1C2_F6_S260;1;R3C2_S27;R3C2_S262_S270;1;R5C2_S22;R5C2_S272_S220;1;R7C2_S22;R7C2_S222_S220;1;R9C2_S22;R9C2_S222_S220;1;R11C2_S22;R11C2_S222_S220;1;R13C2_S23;R13C2_S222_S230;1;R15C2_B0;R15C2_S232_B0;1",
+            "src": "/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "$PACKER_VCC_NET": {
+          "hide_name": 1,
+          "bits": [ 3877493 ] ,
+          "attributes": {
+            "ROUTING": "VCC;;1;R1C1_N22;R1C1_VCC_N220;1;R1C1_C4;R1C1_S221_C4;1"
+          }
+        }
+      }
+    }
+  }
+}

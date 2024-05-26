@@ -39,12 +39,12 @@
       },
       "attributes": {
         "top": "00000000000000000000000000000001",
-        "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:1.1-20.10"
+        "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:1.1-20.10"
       },
       "ports": {
         "led": {
           "direction": "output",
-          "bits": [ 841, 841, 1702568032, 1702565248, 1702563840, 1701885824 ]
+          "bits": [ 841, 841, 841, 0, 1836017711, 1836017711 ]
         },
         "clk": {
           "direction": "input",
@@ -64,7 +64,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C5_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -101,7 +101,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R18C9_SLICE2",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -138,7 +138,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R21C7_SLICE2",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -175,7 +175,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R21C6_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -212,7 +212,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R21C7_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -249,7 +249,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R23C3_SLICE2",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -286,7 +286,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C3_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -323,7 +323,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R18C4_SLICE3",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -360,7 +360,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C4_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -397,7 +397,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R18C4_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -434,7 +434,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R17C6_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -471,7 +471,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R22C4_SLICE3",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -508,7 +508,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R21C5_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -545,7 +545,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C5_SLICE1",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -582,7 +582,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R18C4_SLICE1",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -619,7 +619,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R23C3_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -656,7 +656,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R17C9_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -693,7 +693,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C5_SLICE2",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -730,7 +730,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R17C5_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -767,7 +767,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R18C3_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -804,7 +804,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R17C4_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -841,7 +841,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R22C2_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -878,7 +878,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R23C4_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -915,7 +915,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C8_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -952,7 +952,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C7_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -989,7 +989,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R17C9_SLICE1",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -1026,7 +1026,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R18C9_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -1063,7 +1063,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R16C6_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -1100,7 +1100,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C6_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -1137,7 +1137,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C3_SLICE1",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:11.1-17.4|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "LSR": "input",
@@ -6082,7 +6082,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R16C1_IOBB",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:4.18-4.21",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:4.18-4.21",
             "&DRIVE=8": "00000000000000000000000000000001",
             "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001"
           },
@@ -6904,7 +6904,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R21C1_IOBB",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:4.18-4.21",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:4.18-4.21",
             "&DRIVE=8": "00000000000000000000000000000001",
             "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001"
           },
@@ -6932,7 +6932,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R17C47_IOBA",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:3.11-3.14",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:3.11-3.14",
             "&IO_TYPE=LVCMOS33": "00000000000000000000000000000001",
             "&PULL_MODE=UP": "00000000000000000000000000000001"
           },
@@ -7004,7 +7004,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R15C1_IOBA",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:4.18-4.21",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:4.18-4.21",
             "&DRIVE=8": "00000000000000000000000000000001",
             "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001"
           },
@@ -7664,7 +7664,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R22C1_IOBB",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:4.18-4.21",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:4.18-4.21",
             "&DRIVE=8": "00000000000000000000000000000001",
             "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001"
           },
@@ -8517,7 +8517,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R26C1_IOBB",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:4.18-4.21",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:4.18-4.21",
             "&DRIVE=8": "00000000000000000000000000000001",
             "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001"
           },
@@ -8763,7 +8763,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R25C1_IOBB",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:4.18-4.21",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:4.18-4.21",
             "&DRIVE=8": "00000000000000000000000000000001",
             "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001"
           },
@@ -9866,7 +9866,7 @@
           "bits": [ 3877991 ] ,
           "attributes": {
             "ROUTING": "R22C3_F1;;1;R22C3_S13;R22C3_F1_S130;1;R23C3_A2;R23C3_S131_A2;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -9875,7 +9875,7 @@
           "bits": [ 3877990 ] ,
           "attributes": {
             "ROUTING": "R22C3_N27;R22C3_N131_N270;1;R20C3_N27;R20C3_N272_N270;1;R18C3_W27;R18C3_N272_W270;1;R18C2_N27;R18C2_W271_N270;1;R17C2_A1;R17C2_N271_A1;1;R23C3_Q2;;1;R23C3_N13;R23C3_Q2_N130;1;R22C3_B1;R22C3_N131_B1;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:8.11-8.21"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:8.11-8.21"
           }
         },
         "ledCounter_DFFE_Q_D[1]": {
@@ -9883,7 +9883,7 @@
           "bits": [ 3877988 ] ,
           "attributes": {
             "ROUTING": "R22C3_F2;;1;R22C3_N22;R22C3_F2_N220;1;R20C3_X07;R20C3_N222_X07;1;R20C3_A5;R20C3_X07_A5;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -9892,7 +9892,7 @@
           "bits": [ 3877987 ] ,
           "attributes": {
             "ROUTING": "R20C3_SN10;R20C3_Q5_SN10;1;R21C3_S21;R21C3_S111_S210;1;R22C3_B2;R22C3_S211_B2;1;R17C2_A5;R17C2_W251_A5;1;R20C3_Q5;;1;R18C3_N25;R18C3_N252_N250;1;R20C3_N25;R20C3_Q5_N250;1;R17C3_W25;R17C3_N251_W250;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:8.11-8.21"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:8.11-8.21"
           }
         },
         "ledCounter_ALU_I1_5_COUT[1]": {
@@ -9901,7 +9901,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "5",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -9910,7 +9910,7 @@
           "bits": [ 3877983 ] ,
           "attributes": {
             "ROUTING": "R22C3_F3;;1;R22C3_EW10;R22C3_F3_EW10;1;R22C4_A3;R22C4_E111_A3;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -9919,7 +9919,7 @@
           "bits": [ 3877982 ] ,
           "attributes": {
             "ROUTING": "R22C3_N25;R22C3_W111_N250;1;R21C3_X06;R21C3_N251_X06;1;R21C3_A7;R21C3_X06_A7;1;R22C4_Q3;;1;R22C4_EW10;R22C4_Q3_EW10;1;R22C3_B3;R22C3_W111_B3;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:8.11-8.21"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:8.11-8.21"
           }
         },
         "ledCounter_ALU_I1_5_COUT[2]": {
@@ -9928,7 +9928,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "5",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -9937,7 +9937,7 @@
           "bits": [ 3877978 ] ,
           "attributes": {
             "ROUTING": "R22C3_F4;;1;R22C3_S10;R22C3_F4_S100;1;R23C3_A5;R23C3_S101_A5;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -9946,7 +9946,7 @@
           "bits": [ 3877977 ] ,
           "attributes": {
             "ROUTING": "R23C3_W13;R23C3_Q5_W130;1;R23C2_A3;R23C2_W131_A3;1;R23C3_Q5;;1;R23C3_N10;R23C3_Q5_N100;1;R22C3_B4;R22C3_N101_B4;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:8.11-8.21"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:8.11-8.21"
           }
         },
         "ledCounter_ALU_I1_5_COUT[3]": {
@@ -9955,7 +9955,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "5",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -9964,7 +9964,7 @@
           "bits": [ 3877973 ] ,
           "attributes": {
             "ROUTING": "R22C3_F5;;1;R22C3_W13;R22C3_F5_W130;1;R22C2_A4;R22C2_W131_A4;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -9973,7 +9973,7 @@
           "bits": [ 3877972 ] ,
           "attributes": {
             "ROUTING": "R22C2_SN20;R22C2_Q4_SN20;1;R23C2_S22;R23C2_S121_S220;1;R25C2_X03;R25C2_S222_X03;1;R25C2_A7;R25C2_X03_A7;1;R22C2_Q4;;1;R22C2_E13;R22C2_Q4_E130;1;R22C3_B5;R22C3_E131_B5;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:8.11-8.21"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:8.11-8.21"
           }
         },
         "ledCounter_ALU_I1_5_COUT[4]": {
@@ -9982,7 +9982,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "5",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -9991,7 +9991,7 @@
           "bits": [ 3877968 ] ,
           "attributes": {
             "ROUTING": "R22C4_F0;;1;R22C4_S10;R22C4_F0_S100;1;R23C4_A5;R23C4_S101_A5;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10000,7 +10000,7 @@
           "bits": [ 3877967 ] ,
           "attributes": {
             "ROUTING": "R23C4_W25;R23C4_Q5_W250;1;R23C2_A7;R23C2_W252_A7;1;R23C4_Q5;;1;R23C4_N13;R23C4_Q5_N130;1;R22C4_B0;R22C4_N131_B0;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:8.11-8.21"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:8.11-8.21"
           }
         },
         "ledCounter_ALU_I1_COUT[5]": {
@@ -10009,7 +10009,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "5",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10019,7 +10019,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "5",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:15.23-15.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10077,7 +10077,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10087,7 +10087,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10097,7 +10097,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10107,7 +10107,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10117,7 +10117,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10127,7 +10127,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10137,7 +10137,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10147,7 +10147,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10157,7 +10157,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10167,7 +10167,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10177,7 +10177,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10187,7 +10187,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10197,7 +10197,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10207,7 +10207,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10217,7 +10217,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10227,7 +10227,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10237,7 +10237,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10247,7 +10247,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10257,7 +10257,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10267,7 +10267,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10277,7 +10277,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10287,7 +10287,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10304,7 +10304,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10314,7 +10314,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "23",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:52.24-52.25",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10378,7 +10378,7 @@
           "bits": [ 3877856 ] ,
           "attributes": {
             "ROUTING": "R20C5_E24;R20C5_E212_E240;1;R20C7_X07;R20C7_E242_X07;1;R20C7_D6;R20C7_X07_D6;1;R20C3_Q1;;1;R20C3_E21;R20C3_Q1_E210;1;R20C5_E21;R20C5_E212_E210;1;R20C7_N21;R20C7_E212_N210;1;R18C7_B3;R18C7_N212_B3;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[14]": {
@@ -10386,7 +10386,7 @@
           "bits": [ 3877855 ] ,
           "attributes": {
             "ROUTING": "R18C7_F3;;1;R18C7_W23;R18C7_F3_W230;1;R18C5_W23;R18C5_W232_W230;1;R18C3_S23;R18C3_W232_S230;1;R20C3_X02;R20C3_S232_X02;1;R20C3_A1;R20C3_X02_A1;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10450,7 +10450,7 @@
           "bits": [ 3877839 ] ,
           "attributes": {
             "ROUTING": "R18C7_A7;R18C7_X01_A7;1;R16C6_Q5;;1;R16C6_EW20;R16C6_Q5_EW20;1;R16C7_S26;R16C7_E121_S260;1;R18C7_X01;R18C7_S262_X01;1;R18C7_B4;R18C7_X01_B4;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[15]": {
@@ -10458,7 +10458,7 @@
           "bits": [ 3877838 ] ,
           "attributes": {
             "ROUTING": "R18C7_F4;;1;R18C7_W13;R18C7_F4_W130;1;R18C6_N27;R18C6_W131_N270;1;R16C6_X06;R16C6_N272_X06;1;R16C6_A5;R16C6_X06_A5;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10522,7 +10522,7 @@
           "bits": [ 3877822 ] ,
           "attributes": {
             "ROUTING": "R18C7_B7;R18C7_X08_B7;1;R20C6_Q5;;1;R20C6_N25;R20C6_Q5_N250;1;R18C6_E25;R18C6_N252_E250;1;R18C7_X08;R18C7_E251_X08;1;R18C7_B5;R18C7_X08_B5;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[16]": {
@@ -10530,7 +10530,7 @@
           "bits": [ 3877821 ] ,
           "attributes": {
             "ROUTING": "R18C7_F5;;1;R18C7_S25;R18C7_F5_S250;1;R20C7_W25;R20C7_S252_W250;1;R20C6_A5;R20C6_W251_A5;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10594,7 +10594,7 @@
           "bits": [ 3877805 ] ,
           "attributes": {
             "ROUTING": "R18C7_S24;R18C7_W242_S240;1;R20C7_E24;R20C7_S242_E240;1;R20C7_B7;R20C7_E240_B7;1;R18C9_Q4;;1;R18C9_W24;R18C9_Q4_W240;1;R18C8_X07;R18C8_W241_X07;1;R18C8_B0;R18C8_X07_B0;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[17]": {
@@ -10602,7 +10602,7 @@
           "bits": [ 3877804 ] ,
           "attributes": {
             "ROUTING": "R18C8_F0;;1;R18C8_EW10;R18C8_F0_EW10;1;R18C9_A4;R18C9_E111_A4;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10666,7 +10666,7 @@
           "bits": [ 3877788 ] ,
           "attributes": {
             "ROUTING": "R18C7_X06;R18C7_W232_X06;1;R18C7_C7;R18C7_X06_C7;1;R17C9_Q1;;1;R17C9_S13;R17C9_Q1_S130;1;R18C9_W23;R18C9_S131_W230;1;R18C8_B1;R18C8_W231_B1;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[18]": {
@@ -10674,7 +10674,7 @@
           "bits": [ 3877787 ] ,
           "attributes": {
             "ROUTING": "R18C8_F1;;1;R18C8_E13;R18C8_F1_E130;1;R18C9_N27;R18C9_E131_N270;1;R17C9_A1;R17C9_N271_A1;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10738,7 +10738,7 @@
           "bits": [ 3877771 ] ,
           "attributes": {
             "ROUTING": "R20C7_N24;R20C7_Q4_N240;1;R18C7_D7;R18C7_N242_D7;1;R20C7_Q4;;1;R20C7_E13;R20C7_Q4_E130;1;R20C8_N23;R20C8_E131_N230;1;R18C8_B2;R18C8_N232_B2;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[19]": {
@@ -10746,7 +10746,7 @@
           "bits": [ 3877770 ] ,
           "attributes": {
             "ROUTING": "R18C8_F2;;1;R18C8_W13;R18C8_F2_W130;1;R18C7_S23;R18C7_W131_S230;1;R20C7_A4;R20C7_S232_A4;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10810,7 +10810,7 @@
           "bits": [ 3877754 ] ,
           "attributes": {
             "ROUTING": "R20C8_W10;R20C8_Q4_W100;1;R20C7_C7;R20C7_W101_C7;1;R20C8_Q4;;1;R20C8_N24;R20C8_Q4_N240;1;R18C8_X03;R18C8_N242_X03;1;R18C8_B3;R18C8_X03_B3;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[20]": {
@@ -10818,7 +10818,7 @@
           "bits": [ 3877753 ] ,
           "attributes": {
             "ROUTING": "R18C8_F3;;1;R18C8_S23;R18C8_F3_S230;1;R20C8_A4;R20C8_S232_A4;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10930,7 +10930,7 @@
           "bits": [ 3877724 ] ,
           "attributes": {
             "ROUTING": "R18C4_S21;R18C4_S111_S210;1;R18C4_A6;R18C4_S210_A6;1;R17C4_Q5;;1;R17C4_SN10;R17C4_Q5_SN10;1;R18C4_E21;R18C4_S111_E210;1;R18C5_B1;R18C5_E211_B1;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[0]": {
@@ -10938,7 +10938,7 @@
           "bits": [ 3877723 ] ,
           "attributes": {
             "ROUTING": "R18C5_F1;;1;R18C5_SN10;R18C5_F1_SN10;1;R17C5_W25;R17C5_N111_W250;1;R17C4_A5;R17C4_W251_A5;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11002,7 +11002,7 @@
           "bits": [ 3877707 ] ,
           "attributes": {
             "ROUTING": "R18C3_E13;R18C3_Q4_E130;1;R18C4_B6;R18C4_E131_B6;1;R18C3_Q4;;1;R18C3_E24;R18C3_Q4_E240;1;R18C5_X03;R18C5_E242_X03;1;R18C5_B2;R18C5_X03_B2;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[1]": {
@@ -11010,7 +11010,7 @@
           "bits": [ 3877706 ] ,
           "attributes": {
             "ROUTING": "R18C5_F2;;1;R18C5_W22;R18C5_F2_W220;1;R18C3_X05;R18C3_W222_X05;1;R18C3_A4;R18C3_X05_A4;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11074,7 +11074,7 @@
           "bits": [ 3877690 ] ,
           "attributes": {
             "ROUTING": "R17C5_S10;R17C5_Q4_S100;1;R18C5_A7;R18C5_S101_A7;1;R17C5_Q4;;1;R17C5_SN10;R17C5_Q4_SN10;1;R18C5_B3;R18C5_S111_B3;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[2]": {
@@ -11082,7 +11082,7 @@
           "bits": [ 3877689 ] ,
           "attributes": {
             "ROUTING": "R18C5_F3;;1;R18C5_SN20;R18C5_F3_SN20;1;R17C5_A4;R17C5_N121_A4;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11146,7 +11146,7 @@
           "bits": [ 3877673 ] ,
           "attributes": {
             "ROUTING": "R18C5_X07;R18C5_N222_X07;1;R18C5_B7;R18C5_X07_B7;1;R20C5_Q2;;1;R20C5_N22;R20C5_Q2_N220;1;R18C5_X01;R18C5_N222_X01;1;R18C5_B4;R18C5_X01_B4;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[3]": {
@@ -11154,7 +11154,7 @@
           "bits": [ 3877672 ] ,
           "attributes": {
             "ROUTING": "R18C5_F4;;1;R18C5_S24;R18C5_F4_S240;1;R20C5_X05;R20C5_S242_X05;1;R20C5_A2;R20C5_X05_A2;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11170,7 +11170,7 @@
           "bits": [ 3877669 ] ,
           "attributes": {
             "ROUTING": "R18C7_S21;R18C7_W212_S210;1;R20C7_X02;R20C7_S212_X02;1;R20C7_D7;R20C7_X02_D7;1;R17C9_Q5;;1;R17C9_SN10;R17C9_Q5_SN10;1;R18C9_W21;R18C9_S111_W210;1;R18C8_B4;R18C8_W211_B4;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[21]": {
@@ -11178,7 +11178,7 @@
           "bits": [ 3877668 ] ,
           "attributes": {
             "ROUTING": "R18C8_F4;;1;R18C8_N13;R18C8_F4_N130;1;R17C8_E27;R17C8_N131_E270;1;R17C9_A5;R17C9_E271_A5;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11290,7 +11290,7 @@
           "bits": [ 3877639 ] ,
           "attributes": {
             "ROUTING": "R18C5_S23;R18C5_E131_S230;1;R18C5_C7;R18C5_S230_C7;1;R18C4_Q1;;1;R18C4_E13;R18C4_Q1_E130;1;R18C5_B5;R18C5_E131_B5;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[4]": {
@@ -11298,7 +11298,7 @@
           "bits": [ 3877638 ] ,
           "attributes": {
             "ROUTING": "R18C5_F5;;1;R18C5_W13;R18C5_F5_W130;1;R18C4_A1;R18C4_W131_A1;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11362,7 +11362,7 @@
           "bits": [ 3877622 ] ,
           "attributes": {
             "ROUTING": "R20C5_EW10;R20C5_Q1_EW10;1;R20C6_A7;R20C6_E111_A7;1;R20C5_Q1;;1;R20C5_N21;R20C5_Q1_N210;1;R18C5_E21;R18C5_N212_E210;1;R18C6_B0;R18C6_E211_B0;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[5]": {
@@ -11370,7 +11370,7 @@
           "bits": [ 3877621 ] ,
           "attributes": {
             "ROUTING": "R18C6_F0;;1;R18C6_S20;R18C6_F0_S200;1;R20C6_W20;R20C6_S202_W200;1;R20C5_X01;R20C5_W201_X01;1;R20C5_A1;R20C5_X01_A1;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11434,7 +11434,7 @@
           "bits": [ 3877605 ] ,
           "attributes": {
             "ROUTING": "R21C6_N26;R21C6_E121_N260;1;R20C6_X05;R20C6_N261_X05;1;R20C6_B7;R20C6_X05_B7;1;R21C5_Q4;;1;R21C5_EW20;R21C5_Q4_EW20;1;R21C6_N22;R21C6_E121_N220;1;R19C6_N23;R19C6_N222_N230;1;R18C6_B1;R18C6_N231_B1;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[6]": {
@@ -11442,7 +11442,7 @@
           "bits": [ 3877604 ] ,
           "attributes": {
             "ROUTING": "R18C6_F1;;1;R18C6_SN10;R18C6_F1_SN10;1;R19C6_S25;R19C6_S111_S250;1;R21C6_W25;R21C6_S252_W250;1;R21C5_A4;R21C5_W251_A4;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11506,7 +11506,7 @@
           "bits": [ 3877588 ] ,
           "attributes": {
             "ROUTING": "R17C6_S10;R17C6_Q4_S100;1;R18C6_W20;R18C6_S101_W200;1;R18C5_D7;R18C5_W201_D7;1;R17C6_Q4;;1;R17C6_SN10;R17C6_Q4_SN10;1;R18C6_B2;R18C6_S111_B2;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[7]": {
@@ -11514,7 +11514,7 @@
           "bits": [ 3877587 ] ,
           "attributes": {
             "ROUTING": "R18C6_F2;;1;R18C6_SN20;R18C6_F2_SN20;1;R17C6_A4;R17C6_N121_A4;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11578,7 +11578,7 @@
           "bits": [ 3877571 ] ,
           "attributes": {
             "ROUTING": "R18C6_S25;R18C6_E252_S250;1;R20C6_E25;R20C6_S252_E250;1;R20C7_A7;R20C7_E251_A7;1;R18C4_Q5;;1;R18C4_E25;R18C4_Q5_E250;1;R18C6_X04;R18C6_E252_X04;1;R18C6_B3;R18C6_X04_B3;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[8]": {
@@ -11586,7 +11586,7 @@
           "bits": [ 3877570 ] ,
           "attributes": {
             "ROUTING": "R18C6_F3;;1;R18C6_EW10;R18C6_F3_EW10;1;R18C5_W25;R18C5_W111_W250;1;R18C4_A5;R18C4_W251_A5;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11650,7 +11650,7 @@
           "bits": [ 3877554 ] ,
           "attributes": {
             "ROUTING": "R20C6_C7;R20C6_E242_C7;1;R20C4_Q4;;1;R20C4_E24;R20C4_Q4_E240;1;R20C6_N24;R20C6_E242_N240;1;R18C6_X01;R18C6_N242_X01;1;R18C6_B4;R18C6_X01_B4;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[9]": {
@@ -11658,7 +11658,7 @@
           "bits": [ 3877553 ] ,
           "attributes": {
             "ROUTING": "R18C6_F4;;1;R18C6_S24;R18C6_F4_S240;1;R20C6_W24;R20C6_S242_W240;1;R20C4_X07;R20C4_W242_X07;1;R20C4_A4;R20C4_X07_A4;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11722,7 +11722,7 @@
           "bits": [ 3877537 ] ,
           "attributes": {
             "ROUTING": "R18C6_S23;R18C6_E232_S230;1;R20C6_X02;R20C6_S232_X02;1;R20C6_D7;R20C6_X02_D7;1;R18C4_Q3;;1;R18C4_E23;R18C4_Q3_E230;1;R18C6_B5;R18C6_E232_B5;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[10]": {
@@ -11730,7 +11730,7 @@
           "bits": [ 3877536 ] ,
           "attributes": {
             "ROUTING": "R18C6_F5;;1;R18C6_W25;R18C6_F5_W250;1;R18C4_A3;R18C4_W252_A3;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11794,7 +11794,7 @@
           "bits": [ 3877520 ] ,
           "attributes": {
             "ROUTING": "R21C7_SN20;R21C7_Q5_SN20;1;R20C7_A6;R20C7_N121_A6;1;R21C7_Q5;;1;R21C7_N13;R21C7_Q5_N130;1;R20C7_N23;R20C7_N131_N230;1;R18C7_B0;R18C7_N232_B0;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[11]": {
@@ -11802,7 +11802,7 @@
           "bits": [ 3877519 ] ,
           "attributes": {
             "ROUTING": "R18C7_F0;;1;R18C7_SN10;R18C7_F0_SN10;1;R19C7_S21;R19C7_S111_S210;1;R21C7_A5;R21C7_S212_A5;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11866,7 +11866,7 @@
           "bits": [ 3877503 ] ,
           "attributes": {
             "ROUTING": "R20C6_E23;R20C6_N131_E230;1;R20C7_B6;R20C7_E231_B6;1;R21C6_Q5;;1;R21C6_N13;R21C6_Q5_N130;1;R20C6_N23;R20C6_N131_N230;1;R18C6_E23;R18C6_N232_E230;1;R18C7_B1;R18C7_E231_B1;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[12]": {
@@ -11874,7 +11874,7 @@
           "bits": [ 3877502 ] ,
           "attributes": {
             "ROUTING": "R18C7_F1;;1;R18C7_S13;R18C7_F1_S130;1;R19C7_S27;R19C7_S131_S270;1;R21C7_W27;R21C7_S272_W270;1;R21C6_A5;R21C6_W271_A5;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11999,7 +11999,7 @@
           "bits": [ 3877478 ] ,
           "attributes": {
             "ROUTING": "R20C7_C6;R20C7_N221_C6;1;R21C7_Q2;;1;R21C7_N22;R21C7_Q2_N220;1;R19C7_N23;R19C7_N222_N230;1;R18C7_B2;R18C7_N231_B2;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[13]": {
@@ -12007,7 +12007,7 @@
           "bits": [ 3877477 ] ,
           "attributes": {
             "ROUTING": "R18C7_F2;;1;R18C7_SN20;R18C7_F2_SN20;1;R19C7_S26;R19C7_S121_S260;1;R21C7_X07;R21C7_S262_X07;1;R21C7_A2;R21C7_X07_A2;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -12023,7 +12023,7 @@
           "bits": [ 3877474 ] ,
           "attributes": {
             "ROUTING": "R18C8_W21;R18C8_W111_W210;1;R18C6_W24;R18C6_W212_W240;1;R18C4_C6;R18C4_W242_C6;1;R18C9_Q2;;1;R18C9_EW10;R18C9_Q2_EW10;1;R18C8_B5;R18C8_W111_B5;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[22]": {
@@ -12031,7 +12031,7 @@
           "bits": [ 3877473 ] ,
           "attributes": {
             "ROUTING": "R18C8_F5;;1;R18C8_E25;R18C8_F5_E250;1;R18C9_A2;R18C9_E251_A2;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -12047,7 +12047,7 @@
           "bits": [ 3877469 ] ,
           "attributes": {
             "ROUTING": "R20C5_N10;R20C5_Q4_N100;1;R19C5_W24;R19C5_N101_W240;1;R19C4_N24;R19C4_W241_N240;1;R18C4_D6;R18C4_N241_D6;1;R20C5_Q4;;1;R20C5_N24;R20C5_Q4_N240;1;R18C5_E24;R18C5_N242_E240;1;R18C7_E24;R18C7_E242_E240;1;R18C9_X07;R18C9_E242_X07;1;R18C9_B0;R18C9_X07_B0;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:9.12-9.24"
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:9.12-9.24"
           }
         },
         "clockCounter_DFFR_Q_D[23]": {
@@ -12055,7 +12055,7 @@
           "bits": [ 3877468 ] ,
           "attributes": {
             "ROUTING": "R18C9_F0;;1;R18C9_W20;R18C9_F0_W200;1;R18C7_W21;R18C7_W202_W210;1;R18C5_S21;R18C5_W212_S210;1;R20C5_A4;R20C5_S212_A4;1",
-            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "/home/talha/Tang_Nano_9k/FPGA_Project/led_counter/led_counter.v:12.21-12.37|/home/talha/Tang_Nano_9k/oss-cad-suite/oss-cad-suite-linux-x64-20230210/oss-cad-suite/lib/../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
