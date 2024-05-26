@@ -4,7 +4,7 @@ module top (
     output reg [2:0] led
 );
 
-reg [3:0]a,b,c;
+reg [2:0]a,b,c;
 
 initial begin
     led[0] = 1;
